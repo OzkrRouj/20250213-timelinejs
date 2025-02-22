@@ -1,0 +1,33 @@
+/* ------------------------- RESPONSIVE PARA SMARTPHONES ------------------------- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    #darkModeToggle {
+        top: 70px;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    /* Ajustes para la timeline en móviles */
+    .tl-timeline {
+        font-size: 14px;
+    }
+
+
+    /* Ajustes para los iconos de navegación en móviles (si son diferentes)
+    .tl-slidenav-icon::before {
+        font-size: 20px !important;
+    }
+
+    .tl-slidenav {
+        padding: 0 10px !important;
+    }
+
+    .tl-slidenav-next {
+        margin-right: 10px !important;
+    }
+    */
+}

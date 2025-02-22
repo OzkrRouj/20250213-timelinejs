@@ -1,0 +1,82 @@
+:root {
+    /* Colores para los grupos */
+    --group-emperadores-romanos: #e28b97;
+    /* Rojo claro */
+    --group-eventos-judios: #bbe6bf;
+    /* Verde oliva */
+    --group-cristianismo: #a6c8f0;
+    /* Azul claro */
+    --group-canon-biblico: #e4cca0;
+    /* Naranja */
+    --group-figuras-eclesiasticas: #dcc0f7;
+    /* Púrpura */
+    --group-controversias: #f5c9b5;
+    /* Rosa */
+
+
+    /* Colores para los grupos */
+    --group-emperadores-romanos-dark-mode: #852431;
+    /* Rojo claro */
+    --group-eventos-judios-dark-mode: #416d45;
+    /* Verde oliva */
+    --group-cristianismo-dark-mode: #324861;
+    /* Azul claro */
+    --group-canon-biblico-dark-mode: #68593e;
+    /* Naranja */
+    --group-figuras-eclesiasticas-dark-mode: #543e68;
+    /* Púrpura */
+    --group-controversias-dark-mode: #5e3f31;
+    /* Rosa */
+
+}
+
+/* Colores para cada grupo */
+.tl-timemarker .tl-group-emperadores-romanos {
+    background-color: var(--group-emperadores-romanos);
+}
+
+.tl-timemarker .tl-group-eventos-judíos {
+    background-color: var(--group-eventos-judios);
+}
+
+.tl-timemarker .tl-group-cristianismo {
+    background-color: var(--group-cristianismo);
+}
+
+.tl-timemarker .tl-group-canon-bíblico {
+    background-color: var(--group-canon-biblico);
+}
+
+.tl-timemarker .tl-group-figuras-eclesiásticas {
+    background-color: var(--group-figuras-eclesiasticas);
+}
+
+.tl-timemarker .tl-group-controversias {
+    background-color: var(--group-controversias);
+}
+
+
+
+body.dark-mode .tl-timemarker .tl-group-emperadores-romanos {
+    background-color: var(--group-emperadores-romanos-dark-mode);
+}
+
+body.dark-mode .tl-timemarker .tl-group-eventos-judíos {
+    background-color: var(--group-eventos-judios-dark-mode);
+}
+
+body.dark-mode .tl-timemarker .tl-group-cristianismo {
+    background-color: var(--group-cristianismo-dark-mode);
+}
+
+body.dark-mode .tl-timemarker .tl-group-canon-bíblico {
+    background-color: var(--group-canon-biblico-dark-mode);
+}
+
+body.dark-mode .tl-timemarker .tl-group-figuras-eclesiásticas {
+    background-color: var(--group-figuras-eclesiasticas-dark-mode);
+}
+
+body.dark-mode .tl-timemarker .tl-group-controversias {
+    background-color: var(--group-controversias-dark-mode);
+}

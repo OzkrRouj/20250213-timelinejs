@@ -1,0 +1,720 @@
+{
+    "title": {
+        "media": {
+            "url": "",
+            "caption": "",
+            "credit": ""
+        },
+        "text": {
+            "headline": "Timeline de Eventos Históricos",
+            "text": "Eventos relevantes del Imperio Romano, judaísmo y cristianismo primitivo"
+        }
+    },
+    "events": [
+        {
+            "start_date": {
+                "year": "69"
+            },
+            "end_date": {
+                "year": "79"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Vespasiano",
+                "text": "César Vespasiano Augusto, fundador de la dinastía Flavia. Su reinado marcó el inicio de una nueva era tras el año de los cuatro emperadores."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "79"
+            },
+            "end_date": {
+                "year": "81"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Tito",
+                "text": "Titus Flavius Vespasianus gobernó como emperador romano, caracterizado por su tolerancia, paciencia y amabilidad."
+            },
+            "group": "Emperadores Romanos",
+            "class": "emperadores-romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "81"
+            },
+            "end_date": {
+                "year": "96"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Domiciano",
+                "text": "Gobernó hasta su asesinato. A diferencia de su hermano Tito, Domiciano fue conocido por ser cruel y autocrático, marcando el final de la dinastía flaviana."
+            },
+            "group": "Emperadores Romanos",
+            "class": "emperadores-romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "96"
+            },
+            "end_date": {
+                "year": "98"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Nerva",
+                "text": "Marco Coceyo Nerva fue emperador en un breve periodo de transición tras el fin de los Flavios, adoptando a Trajano como su sucesor."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "98"
+            },
+            "end_date": {
+                "year": "117"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Trajano",
+                "text": "Fue emperador durante la máxima extensión territorial del Imperio Romano. Durante su reinado, Plinio el Joven le escribió desde Bitinia sobre el creciente número de cristianos."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "117"
+            },
+            "end_date": {
+                "year": "138"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Adriano",
+                "text": "Fue emperador y adoptó una política de estabilización del imperio. Durante su reinado ocurrió la segunda revuelta judía liderada por Simón Bar Kokhba."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "138"
+            },
+            "end_date": {
+                "year": "161"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Antonino Pío",
+                "text": "Fue emperador, conocido por su reinado pacífico y carácter amistoso, de ahí su apodo 'Pío'."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "161"
+            },
+            "end_date": {
+                "year": "180"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Marco Aurelio",
+                "text": "Último de los 'cinco buenos emperadores', gobernó durante la plaga y conflictos fronterizos. Bajo su reinado fue ejecutado Policarpo de Esmirna."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "180"
+            },
+            "end_date": {
+                "year": "192"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Cómodo",
+                "text": "Se convirtió en emperador, destacando por sus ejecuciones, despilfarros y una memoria pública condenada tras su asesinato."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "197"
+            },
+            "end_date": {
+                "year": "211"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Septimio Severo",
+                "text": "Ganó el poder imperial, estableciendo la dinastía Severa y una monarquía militar. El imperio experimentó un último periodo de crecimiento y consolidación de fronteras."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "249"
+            },
+            "end_date": {
+                "year": "251"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Decio",
+                "text": "Cayo o Gayo Mesio Quinto Trajano Decio persiguió a los cristianos con crueldad, buscando restablecer el antiguo orden romano."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "284"
+            },
+            "end_date": {
+                "year": "305"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Diocleciano",
+                "text": "Gobernó durante un periodo en que los cristianos sufrieron nuevamente persecución bajo el imperio."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "312"
+            },
+            "end_date": {
+                "year": "337"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Constantino",
+                "text": "Gobernó marcando un cambio trascendental para el cristianismo, que pasó de ser perseguido a la fe favorecida del imperio. Bajo su gobierno se donaron propiedades a la iglesia y se otorgó estatus elevado al clero."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "49"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Expulsión de judíos",
+                "text": "El emperador Claudio expulsó a los judíos de Roma en el año 49 d.C., posiblemente debido a conflictos internos relacionados con el cristianismo primitivo ('Crestus')."
+            },
+            "group": "Eventos Judíos",
+            "background": "#6B8E23"
+        },
+        {
+            "start_date": {
+                "year": "132"
+            },
+            "end_date": {
+                "year": "135"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Segunda revuelta judía",
+                "text": "La segunda revuelta judía (132-135 d.C.) liderada por Simón Bar Kokhba, representó un intento de independencia judía contra el Imperio Romano."
+            },
+            "group": "Eventos Judíos",
+            "background": "#6B8E23"
+        },
+        {
+            "start_date": {
+                "year": "135"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Rebelión aplastada",
+                "text": "La rebelión judía fue aplastada por el Imperio Romano en el 135 d.C., resultando en la devastación de Judea y el fin del nacionalismo judío helenizado."
+            },
+            "group": "Eventos Judíos",
+            "background": "#6B8E23"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Expansión del cristianismo",
+                "text": "A mediados del siglo II, el cristianismo se extendió a las clases altas de la sociedad romana y a regiones campesinas, abarcando diversas partes del imperio."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "177"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Comunidades en Galia",
+                "text": "En el año 177 d.C., se documentaron comunidades cristianas en Lyon y Vienne, en la Galia, lideradas por figuras como Ireneo de Lyon."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "100"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Conversiones en Arbela",
+                "text": "Durante el siglo I, se produjeron conversiones al cristianismo en Arbela, una antigua ciudad asiria al este del río Tigris."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Comunidad en Damasco",
+                "text": "En el siglo II, se estableció una comunidad cristiana al norte de Damasco, indicando la expansión del cristianismo en Siria."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Carta de Plinio",
+                "text": "La carta de Plinio el Joven a Trajano alrededor del año 112 d.C. evidencia la rápida expansión del cristianismo y plantea preguntas sobre cómo lidiar con los cristianos en Bitinia."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "200"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Regla de fe",
+                "text": "A finales del siglo II, la 'regla de fe' o 'regla de la verdad' se consolidó como criterio para la autenticidad de la iglesia católica."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Escuela de Alejandría",
+                "text": "En el siglo II, Panteno de Alejandría fundó una escuela cristiana en su casa, contribuyendo al desarrollo teológico y educativo del cristianismo primitivo."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Adoración cristiana",
+                "text": "Hacia mediados del siglo II, se había establecido una estructura definida en la adoración cristiana, incluyendo la lectura de las Escrituras, sermones, oraciones y la celebración de la Cena del Señor."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "154"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Policarpo en Roma",
+                "text": "En el año 154 d.C., Policarpo de Esmirna viajó a Roma para dialogar con el obispo Aniceto sobre la controversia de la fecha de la Pascua de Resurrección."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "200"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Cartago como centro",
+                "text": "A inicios del siglo III, Cartago emergió como un centro influyente del cristianismo en el norte de África, destacándose por figuras como Tertuliano y Cipriano."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "202"
+            },
+            "end_date": {
+                "year": "203"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Persecución en Alejandría",
+                "text": "Entre 202 y 203 d.C., ocurrió una persecución en Alejandría que provocó la huida de Clemente y sus alumnos y el martirio de Leónidas, padre de Orígenes."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "250"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Credos estables",
+                "text": "A mediados del siglo III, se desarrolló el uso de credos estables, particularmente en el contexto del rito del bautismo, para definir la fe cristiana."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "321"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Ley dominical",
+                "text": "En el año 321 d.C., Constantino legisló el descanso dominical, prohibiendo el trabajo en domingo excepto para labores agrícolas, institucionalizando el día del Señor."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "325"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Concilio de Nicea",
+                "text": "El Concilio de Nicea en el 325 d.C. abordó la controversia de la Pascua, llevando a que la mayoría de las iglesias en Asia Menor abandonaran la costumbre de celebrarla el catorce de Nisán."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "367"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Carta de Atanasio",
+                "text": "En el año 367 d.C., la Carta Festiva 39 de Atanasio de Alejandría fijó un canon bíblico para oriente, influyendo en la delimitación del Nuevo Testamento."
+            },
+            "group": "Canon Bíblico",
+            "background": "#FFA500"
+        },
+        {
+            "start_date": {
+                "year": "397"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Canon de Cartago",
+                "text": "En el año 397 d.C., un concilio en Cartago aceptó una lista similar al canon de Atanasio, consolidando un canon bíblico para la iglesia occidental."
+            },
+            "group": "Canon Bíblico",
+            "background": "#FFA500"
+        },
+        {
+            "start_date": {
+                "year": "100"
+            },
+            "end_date": {
+                "year": "165"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Justino Mártir",
+                "text": "Justino Mártir (c. 100-165) fue un apologista cristiano que utilizó material escrito por los apóstoles en sus relatos sobre la vida de Jesús y dialogó con la filosofía griega."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "end_date": {
+                "year": "215"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Clemente de Alejandría",
+                "text": "Clemente de Alejandría (c. 150-215) buscó integrar la filosofía griega con la doctrina cristiana, intentando ofrecer una respuesta intelectual al mundo pagano."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "185"
+            },
+            "end_date": {
+                "year": "254"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Orígenes",
+                "text": "Orígenes (c. 185-254) fue un prolífico erudito y teólogo que realizó la Hexapla, una edición crítica elaborada del Antiguo Testamento, y especuló extensamente sobre teología."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "200"
+            },
+            "end_date": {
+                "year": "258"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Cipriano",
+                "text": "Cipriano de Cartago (c. 200-258) se convirtió al cristianismo alrededor del 246, fue elegido obispo de Cartago y murió como mártir durante la persecución de Valeriano."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "340"
+            },
+            "end_date": {
+                "year": "397"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Ambrosio",
+                "text": "Ambrosio de Milán (c. 340-397) fue un influyente obispo que utilizó el título 'Credo' y defendió la ortodoxia doctrinal frente al poder imperial."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "260"
+            },
+            "end_date": {
+                "year": "340"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Eusebio",
+                "text": "Eusebio de Cesarea (finales del siglo III o comienzos del IV) fue un historiador eclesiástico que escribió sobre los libros del canon bíblico, clasificándolos en reconocidos y en discusión."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "200"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Canon Muratorio",
+                "text": "El Canon Muratorio, fechado a finales del siglo II en Roma, es el listado canónico más antiguo conocido del Nuevo Testamento, aunque fragmentado en el documento que ha sobrevivido."
+            },
+            "group": "Canon Bíblico",
+            "background": "#FFA500"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "media": {
+                "url": "",
+                "caption": "",
+                "credit": ""
+            },
+            "text": {
+                "headline": "Controversia de Pascua",
+                "text": "La controversia de la Pascua de Resurrección surgió en el siglo II debido a las diferentes prácticas entre las iglesias de Oriente, que seguían la costumbre judía, y Occidente, sobre la fecha de celebración."
+            },
+            "group": "Controversias",
+            "background": "#FF69B4"
+        }
+    ]
+}

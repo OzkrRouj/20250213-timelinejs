@@ -1,0 +1,621 @@
+:root {
+    /* Colores de la paleta (del más oscuro al más claro) */
+    --color-darkest: #364958;
+    /* Fondo oscuro, textos claros */
+    --color-dark: #3b6064;
+    /* Elementos secundarios oscuros */
+    --color-medium-dark: #55828b;
+    /* Botones, bordes, acentos */
+    --color-medium: #87bba2;
+    /* Acentos, fondos claros */
+    --color-light: #c9e4ca;
+    /* Fondos claros, textos oscuros */
+    --color-lightest: #eff7f6;
+    /* Fondo principal, textos oscuros */
+
+    /* Propósito de los colores */
+    --background-color: var(--color-lightest);
+    /* Fondo principal */
+    --text-color: var(--color-darkest);
+    /* Texto principal */
+    --primary-accent: var(--color-medium-dark);
+    /* Botones, enlaces */
+    --secondary-accent: var(--color-medium);
+    /* Acentos secundarios */
+    --header-background: var(--color-light);
+    /* Fondo del encabezado */
+    --header-text: var(--color-darkest);
+    /* Texto del encabezado */
+}
+
+body.dark-mode {
+    --background-color: var(--color-darkest);
+    --text-color: var(--color-lightest);
+    --primary-accent: var(--color-medium);
+    --secondary-accent: var(--color-medium-dark);
+    --header-background: var(--color-dark);
+    --header-text: var(--color-lightest);
+}
+
+/* ------------------------- ESTILOS PARA LA NAVBAR ------------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* Espacio entre el título y el botón */
+    align-items: center;
+    /* Alinea verticalmente el contenido */
+    padding: 10px 20px;
+    /* Espaciado interno */
+    background-color: var(--header-background);
+    color: var(--header-text);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* Sombra para destacar la barra */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Asegura que esté por encima de otros elementos */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-sizing: border-box;
+    /* Incluye padding en el cálculo del ancho */
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    /* Alinea verticalmente los botones */
+    gap: 10px;
+    /* Espacio entre los botones */
+}
+
+.navbar-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+    /* Evita que el texto se rompa en varias líneas */
+    overflow: hidden;
+    /* Oculta cualquier contenido que exceda el ancho */
+    text-overflow: ellipsis;
+    /* Agrega puntos suspensivos si el texto es demasiado largo */
+    max-width: 70%;
+    /* Limita el ancho máximo del título */
+    flex-shrink: 1;
+    /* Permite que el título se reduzca si es necesario */
+}
+
+#darkModeToggle {
+    display: flex;
+    /* Asegura que el ícono y el texto estén alineados */
+    align-items: center;
+    /* Centra verticalmente el ícono y el texto */
+    gap: 8px;
+    /* Espacio entre el ícono y el texto */
+    padding: 12px 15px;
+    /* Reducimos el padding ligeramente */
+    background-color: var(--primary-accent);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    /* Tamaño de fuente */
+    max-width: 150px;
+    /* Limita el ancho máximo del botón */
+    white-space: nowrap;
+    /* Evita que el texto se rompa en varias líneas */
+    overflow: hidden;
+    /* Oculta cualquier contenido que exceda el ancho */
+    text-overflow: ellipsis;
+    /* Agrega puntos suspensivos si el texto es demasiado largo */
+    flex-shrink: 0;
+    /* Evita que el botón se reduzca */
+}
+
+#darkModeToggle:hover {
+    opacity: 0.9;
+    background-color: var(--secondary-accent);
+}
+
+/* Ajustes para el modo oscuro */
+body.dark-mode .navbar {
+    background-color: var(--color-dark);
+    color: var(--color-lightest);
+}
+
+body.dark-mode #darkModeToggle {
+    background-color: var(--color-medium);
+}
+
+body.dark-mode #darkModeToggle:hover {
+    background-color: var(--color-medium-dark);
+}
+
+.tl-menubar {
+    display: none !important;
+    /* Oculta el contenedor de TimelineJS */
+}
+
+#timeline-embed {
+    width: 100%;
+    height: 90vh;
+    border: none;
+    background-color: var(--background-color);
+    transition: all 0.3s ease;
+    margin-top: 70px;
+    /* Espacio para la navbar */
+}
+
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /*overflow: hidden;
+    /* Evita el scroll innecesario */
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 24px;
+    background-color: var(--header-background);
+    color: var(--header-text);
+    /* Fondo semitransparente */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Asegura que esté por encima de la timeline */
+}
+
+#timeline-embed {
+    width: 100%;
+    height: 90vh;
+    /* Ocupa el 100% del alto de la ventana */
+    border: none;
+    background-color: var(--background-color);
+    transition: all 0.3s ease;
+    margin-top: 60px;
+    /* Espacio para el título */
+}
+
+
+
+
+.tl-slide-content-container,
+.tl-slide-content {
+    background-color: transparent !important;
+}
+
+.tl-slide-scrollable-container {
+    background-color: var(--background-color) !important;
+}
+
+.tl-slide-background {
+    background-color: var(--primary-accent);
+}
+
+/* Ajustes de texto */
+.tl-headline-title {
+    color: var(--text-color) !important;
+}
+
+.tl-text-content {
+    color: var(--text-color) !important;
+}
+
+.tl-timenav-content {
+    background-color: var(--primary-accent);
+}
+
+/* Ajustes generales de la timeline */
+.tl-timeline {
+    --tl-text-color: var(--text-color);
+    --tl-background-color: var(--background-color);
+    --tl-accent-color: var(--primary-accent);
+}
+
+/* Oculta el logo y el texto de TimelineJS */
+.tl-attribution {
+    display: none !important;
+}
+
+
+/**/
+
+/* ------------------------- ICONOS DE NAVEGACIÓN PERSONALIZADOS ------------------------- */
+.tl-slidenav-icon {
+    position: relative;
+    width: 40px !important;
+    height: 40px !important;
+    background: none !important;
+}
+
+
+
+/* Icono anterior */
+.tl-slidenav-previous .tl-slidenav-icon::before {
+    content: "\f060";
+    /* Código Unicode de Font Awesome para flecha izquierda */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: var(--primary-accent);
+    transition: all 0.3s ease;
+}
+
+/* Icono siguiente */
+.tl-slidenav-next .tl-slidenav-icon::before {
+    content: "\f061";
+    /* Código Unicode de Font Awesome para flecha derecha */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: var(--primary-accent);
+    transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.tl-slidenav:hover .tl-slidenav-icon::before {
+    color: var(--secondary-accent);
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Textos de navegación */
+.tl-slidenav-title {
+    font-size: 16px !important;
+    color: var(--text-color) !important;
+}
+
+.tl-slidenav-description {
+    font-size: 14px !important;
+    color: var(--text-color) !important;
+    opacity: 0.8;
+}
+
+/* Ajuste específico para el icono derecho */
+.tl-slidenav-next {
+    margin-right: 20px !important;
+}
+
+/* Asegurar padding general en los controles */
+.tl-slidenav {
+    padding: 0 20px !important;
+}
+
+/* Alinear mejor los iconos */
+.tl-slidenav-next .tl-slidenav-icon::before {
+    left: calc(50% - 5px) !important;
+    /* Ajuste fino de posición */
+}
+
+.tl-slidenav-previous .tl-slidenav-icon::before {
+    left: calc(50% + 5px) !important;
+    /* Simetría en el ajuste */
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+    .tl-slidenav {
+        padding: 0 10px !important;
+    }
+
+    .tl-slidenav-next {
+        margin-right: 10px !important;
+    }
+
+    .tl-slidenav-icon::before {
+        font-size: 20px !important;
+    }
+}
+
+/* Modo oscuro */
+body.dark-mode .tl-slidenav-icon::before {
+    color: var(--color-light) !important;
+    /* Fuerza el color del ícono */
+    /* Añadir estas propiedades para sobreescribir estilos base */
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+}
+
+body.dark-mode .tl-slidenav:hover .tl-slidenav-icon::before {
+    color: var(--color-lightest);
+}
+
+/* Forzar el uso de Font Awesome */
+.tl-slidenav-icon::before {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+    /* Necesario para los íconos sólidos */
+}
+
+
+/* Modo oscuro */
+body.dark-mode .tl-slidenav-icon::before {
+    color: var(--color-light) !important;
+    /* Fuerza el color del ícono en modo oscuro */
+}
+
+/* Hover en modo oscuro */
+body.dark-mode .tl-slidenav:hover .tl-slidenav-icon::before {
+    color: var(--color-lightest) !important;
+    /* Cambia el color al pasar el mouse */
+}
+
+/* ------------------------- ESTILOS PARA LOS ELEMENTOS DE LA TIMELINE ------------------------- */
+
+/* Modo oscuro */
+body.dark-mode .tl-slidenav-previous .tl-slidenav-icon::before {
+    content: "\f060" !important;
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+    color: var(--color-light) !important;
+}
+
+body.dark-mode .tl-slidenav-next .tl-slidenav-icon::before {
+    content: "\f061" !important;
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+    color: var(--color-light) !important;
+}
+
+/* Título del evento */
+.tl-headline {
+    color: var(--text-color) !important;
+    /* Color del título */
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Fecha del evento */
+.tl-headline-date {
+    color: var(--text-color) !important;
+    /* Color de la fecha */
+    font-size: 18px;
+    margin: 5px 0 0;
+}
+
+/* Contenido del evento */
+.tl-text-content {
+    color: var(--text-color) !important;
+    /* Color del texto */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Ajustes para el modo oscuro */
+body.dark-mode .tl-text-headline-container {
+    background-color: var(--secondary-accent);
+    /* Fondo del contenedor en modo oscuro */
+}
+
+body.dark-mode .tl-headline,
+body.dark-mode .tl-headline-date,
+body.dark-mode .tl-text-content {
+    color: var(--text-color) !important;
+    /* Color del texto en modo oscuro */
+}
+
+/* ------------------------- ESTILOS PARA LA BARRA DE TIEMPO ------------------------- */
+
+/* Fondo de la barra de tiempo */
+.tl-timeaxis-background {
+    background-color: var(--color-lightest) !important;
+    /* Color de fondo */
+}
+
+/* Línea de tiempo */
+.tl-timeaxis {
+    background-color: var(--color-light) !important;
+    /* Color de la línea */
+}
+
+/* Texto de la barra de tiempo */
+.tl-timeaxis-tick-text {
+    color: var(--text-color) !important;
+    /* Color del texto */
+}
+
+.tl-timeaxis-tick-text span {
+    color: var(--secondary-accent) !important;
+    /* O cualquier otro color */
+}
+
+
+/* Ajustes para el modo oscuro */
+body.dark-mode .tl-timeaxis-background {
+    background-color: var(--primary-accent) !important;
+    /* Color de fondo en modo oscuro */
+}
+
+body.dark-mode .tl-timeaxis {
+    background-color: var(--secondary-accent) !important;
+    /* Color de la línea en modo oscuro */
+}
+
+body.dark-mode .tl-timeaxis-tick-text {
+    color: var(--text-color) !important;
+    /* Color del texto en modo oscuro */
+}
+
+body.dark-mode .tl-timeaxis-tick-text span {
+    color: var(--color-light) !important;
+}
+
+
+/* ------------------------- ESTILOS PARA LA BARRA DE MENÚ ------------------------- */
+
+/* Contenedor principal de la barra de menú */
+.tl-menubar {
+    background-color: var(--color-light) !important;
+    /* Color de fondo */
+
+    border-radius: 0px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    transition: background-color 0.3s ease;
+
+}
+
+/* Botones de la barra de menú */
+.tl-menubar-button {
+    background-color: transparent !important;
+    border: none !important;
+    color: var(--text-color) !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 8px;
+    /* Espaciado interno */
+    font-size: 16px;
+    /* Tamaño de los íconos */
+}
+
+.tl-menubar-button:hover {
+    background-color: var(--secondary-accent) !important;
+    transform: scale(1.1);
+}
+
+/* Iconos de los botones */
+.tl-icon-zoom-in,
+.tl-icon-zoom-out,
+.tl-icon-goend,
+.tl-icon-goback {
+    fill: var(--text-color) !important;
+    /* Color de los iconos */
+    stroke: var(--text-color) !important;
+}
+
+/* ------------------------- MODO OSCURO ------------------------- */
+body.dark-mode .tl-menubar {
+    background-color: var(--secondary-accent) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.dark-mode .tl-menubar-button:hover {
+    background-color: var(--primary-accent) !important;
+}
+
+/* ------------------------- MODO OSCURO ------------------------- */
+
+
+body.dark-mode {
+    background-color: var(--color-darkest) !important;
+    color: var(--text-color) !important;
+}
+
+body.dark-mode h1 {
+    background-color: var(--header-background) !important;
+    color: var(--header-text) !important;
+}
+
+body.dark-mode #timeline-embed {
+    background-color: var(--background-color) !important;
+    border-color: var(--primary-accent) !important;
+}
+
+/* Añadir esto para forzar los iconos Font Awesome */
+.tl-slidenav-icon {
+    background-image: none !important;
+}
+
+.tl-slidenav-icon::before {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+    z-index: 1000 !important;
+}
+
+body.dark-mode .tl-slidenav-icon::before {
+    color: var(--text-color) !important;
+}
+
+
+/* Ajustes específicos para el contenido del slide */
+body.dark-mode .tl-slide-content-container,
+body.dark-mode .tl-slide-content {
+    background-color: transparent !important;
+}
+
+body.dark-mode .tl-slide-scrollable-container {
+    background-color: #202020 !important;
+}
+
+body.dark-mode .tl-slide-background {
+    background-color: #2d2d2d;
+}
+
+/* Ajustes de texto */
+body.dark-mode .tl-headline-title {
+    color: #ffffff !important;
+}
+
+body.dark-mode .tl-text-content {
+    color: #d0d0d0 !important;
+}
+
+
+
+body.dark-mode .tl-timenav-content {
+    background-color: #404040;
+}
+
+/* Ajustes generales de la timeline */
+body.dark-mode .tl-timeline {
+    --tl-text-color: #eee;
+    --tl-background-color: #121212;
+    --tl-accent-color: #4ECDC4;
+}
+
+/* Oculta el logo y el texto de TimelineJS */
+.tl-attribution {
+    display: none !important;
+}
+
+/* ------------------------- RESPONSIVE PARA SMARTPHONES ------------------------- */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 20px;
+        /* Tamaño de fuente más pequeño en móviles */
+        padding: 15px;
+    }
+
+    #darkModeToggle {
+        top: 70px;
+        /* Ajuste de posición en móviles */
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    /* Ajustes para la timeline en móviles */
+    .tl-timeline {
+        font-size: 14px;
+        /* Reduce el tamaño de la fuente en móviles */
+    }
+
+    .tl-timenav {
+        height: 100px !important;
+        /* Altura reducida de la barra de tiempo */
+    }
+
+    .tl-slide-content {
+        padding: 10px !important;
+        /* Menos padding en los slides */
+    }
+}

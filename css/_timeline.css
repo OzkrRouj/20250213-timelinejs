@@ -1,0 +1,53 @@
+/* Estilos generales de la timeline y ocultar menubar */
+.tl-menubar {
+    display: none !important;
+    /* Oculta el contenedor de TimelineJS */
+}
+
+#timeline-embed {
+    width: 100%;
+    height: 90vh;
+    border: none;
+    background-color: var(--background-color);
+    transition: all 0.3s ease;
+    margin-top: 70px;
+    /* Espacio para la navbar */
+}
+
+.tl-slide-content-container,
+.tl-slide-content {
+    background-color: transparent !important;
+}
+
+.tl-slide-scrollable-container {
+    background-color: var(--background-color) !important;
+}
+
+.tl-slide-background {
+    background-color: var(--primary-accent);
+}
+
+/* Ajustes de texto */
+.tl-headline-title {
+    color: var(--text-color) !important;
+}
+
+.tl-text-content {
+    color: var(--text-color) !important;
+}
+
+.tl-timenav-content {
+    background-color: var(--primary-accent);
+}
+
+/* Ajustes generales de la timeline */
+.tl-timeline {
+    --tl-text-color: var(--text-color);
+    --tl-background-color: var(--background-color);
+    --tl-accent-color: var(--primary-accent);
+}
+
+/* Oculta el logo y el texto de TimelineJS */
+.tl-attribution {
+    display: none !important;
+}

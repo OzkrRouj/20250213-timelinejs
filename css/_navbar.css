@@ -1,0 +1,73 @@
+/* ------------------------- ESTILOS PARA LA NAVBAR ------------------------- */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--header-background);
+    color: var(--header-text);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.navbar-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-title {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70%;
+    flex-shrink: 1;
+}
+
+#darkModeToggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 15px;
+    background-color: var(--primary-accent);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    max-width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 0;
+}
+
+#darkModeToggle:hover {
+    opacity: 0.9;
+    background-color: var(--secondary-accent);
+}
+
+/* Ajustes para el modo oscuro */
+body.dark-mode .navbar {
+    background-color: var(--color-dark);
+    color: var(--color-lightest);
+}
+
+body.dark-mode #darkModeToggle {
+    background-color: var(--color-medium);
+}
+
+body.dark-mode #darkModeToggle:hover {
+    background-color: var(--color-medium-dark);
+}

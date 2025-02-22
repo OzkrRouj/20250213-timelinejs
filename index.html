@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Timeline de Eventos Históricos</title>
+    <!-- Viewport para responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TimelineJS CSS -->
+    <link rel="stylesheet" href="timelinejs/css/timeline.css">
+    <!-- Tus estilos personalizados -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Tema oscuro (se carga dinámicamente) -->
+    <link rel="stylesheet" id="darkModeStyleSheet" href="timelinejs/css/themes/timeline.theme.dark.css" disabled="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Nueva Navbar -->
+    <header class="navbar">
+        <div class="navbar-title">Timeline de Eventos Históricos</div>
+        <div class="navbar-actions">
+
+            <!-- Botones de TimelineJS -->
+            <button class="tl-menubar-button" type="button" aria-label="Zoom in"
+                aria-description="Show less than -110 to 60">
+                <span class="tl-icon-zoom-in"></span>
+            </button>
+            <button class="tl-menubar-button" type="button" aria-label="Zoom out"
+                aria-description="Show more than -110 to 60">
+                <span class="tl-icon-zoom-out"></span>
+            </button>
+            <button class="tl-menubar-button" type="button" aria-label="Go to the last slide">
+                <span class="tl-icon-goend"></span>
+            </button>
+            <button class="tl-menubar-button" type="button" aria-label="Return to Title">
+                <span class="tl-icon-goback"></span>
+            </button>
+            <button id="darkModeToggle"><i class="fas fa-sun"></i></button>
+        </div>
+    </header>
+
+    <!-- Contenedor de la timeline -->
+    <div id="timeline-embed"></div>
+
+
+
+    <!-- TimelineJS -->
+    <script src="timelinejs/js/timeline.js"></script>
+    <!-- Tu lógica JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

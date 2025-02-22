@@ -1,0 +1,13 @@
+/* style.css - Archivo CSS principal que importa todos los módulos */
+
+@import "_variables.css";
+@import "_navbar.css";
+@import "_timeline.css";
+@import "_timeline-elementos.css";
+@import "_timeline-barra-tiempo.css";
+@import "_timeline-barra-menu.css";
+@import "_timeline-iconos-nav.css";
+@import "_dark-mode.css";
+/* Opcional, si usas un archivo _dark-mode.css */
+@import "_responsive.css";
+@import "_groups.css";

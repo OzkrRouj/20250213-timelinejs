@@ -1,0 +1,158 @@
+/* ------------------------- ESTILOS PARA LA BARRA DE TIEMPO ------------------------- */
+
+/* Fondo de la barra de tiempo */
+.tl-timeaxis-background {
+    background-color: var(--color-lightest) !important;
+}
+
+/* Línea de tiempo */
+.tl-timeaxis {
+    background-color: var(--color-light) !important;
+}
+
+/* Texto de la barra de tiempo */
+.tl-timeaxis-tick-text {
+    color: var(--text-color) !important;
+}
+
+.tl-timeaxis-tick-text span {
+    color: var(--secondary-accent) !important;
+}
+
+/* Ajustes para el modo oscuro */
+body.dark-mode .tl-timeaxis-background {
+    background-color: var(--primary-accent) !important;
+}
+
+body.dark-mode .tl-timeaxis {
+    background-color: var(--secondary-accent) !important;
+}
+
+body.dark-mode .tl-timeaxis-tick-text {
+    color: var(--text-color) !important;
+}
+
+body.dark-mode .tl-timeaxis-tick-text span {
+    color: var(--color-light) !important;
+}
+
+
+
+.tl-headline-fadeout::before,
+.tl-headline-fadeout::after {
+    background: none !important;
+    background-image: none !important;
+}
+
+
+.tl-timemarker-content-container:hover {
+    background-color: var(--secondary-accent);
+    /* Color de fondo en estado hover */
+    color: var(--color-lightest);
+    /* Opcional: Cambia el color del texto en hover para contraste */
+    cursor: pointer;
+    /* Opcional: Cambia el cursor a "pointer" para indicar interactividad */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Transición suave */
+}
+
+
+
+
+
+/* <-- Verifica que la llave de cierre esté aquí, después de la última propiedad y punto y coma */
+
+/*  ESTADO SELECCIONADO - REEMPLAZA .tl-timemarker-content-container-selected ...  */
+/* <-- Línea 52 es un comentario */
+.tl-timemarker-content-container.tl-timemarker-content-container-selected {
+    background-color: var(--primary-accent);
+    /* Color de fondo en estado seleccionado */
+    color: var(--color-lightest);
+    /* Opcional: Cambia el color del texto en seleccionado */
+    font-weight: bold;
+    /* Opcional: Resalta el texto en negrita en estado seleccionado */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Transición suave */
+}
+
+/* <-- Verifica llave de cierre */
+
+/* Modo oscuro */
+body.dark-mode .tl-timemarker-content-container {
+    background-color: var(--color-dark);
+    /* Color de fondo normal en modo oscuro */
+
+    /* Opcional: Ajusta el color del texto en modo oscuro para contraste si es necesario */
+}
+
+/* <-- Verifica llave de cierre */
+
+.tl-timemarker .tl-timemarker-content-container {
+    background-color: var(--color-light);
+}
+
+.tl-timemarker .tl-timemarker-content-container:hover {
+    background-color: var(--color-lightest);
+}
+
+body.dark-mode .tl-timemarker-content-container:hover {
+    background-color: var(--primary-accent);
+    /* Color de fondo en hover en modo oscuro */
+    color: var(--text-color);
+    /* Mantén el color del texto en hover en modo oscuro (o ajusta) */
+}
+
+/* <-- Verifica llave de cierre */
+
+/* MODO OSCURO - ESTADO SELECCIONADO - REEMPLAZA .tl-timemarker-content-container-selected ... */
+/* <-- Línea 61 es un comentario */
+body.dark-mode .tl-timemarker-content-container.tl-timemarker-content-container-selected {
+    background-color: var(--secondary-accent);
+    /* Color de fondo seleccionado en modo oscuro */
+    color: var(--color-darkest);
+    /* Opcional: Ajusta el color del texto en modo oscuro para contraste */
+    font-weight: bold;
+    /* Opcional: Mantén el texto en negrita en modo oscuro seleccionado */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* Transición suave */
+}
+
+/* <-- Verifica llave de cierre */
+
+body.dark-mode .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
+    background-color: var(--color-darkest);
+    /* Color de fondo activo en modo oscuro */
+}
+
+
+body.dark-mode .tl-timegroup-message {
+    color: #d8dfdf73;
+    text-shadow: #ffffff00;
+}
+
+
+body.dark-mode .tl-timemarker-line-left {
+    border-left: #8a8f8f;
+    background-color: #8a8f8f;
+}
+
+body.dark-mode .tl-timemarker-line-left::after {
+    border-left: #8a8f8f;
+    background-color: #a9b8b8;
+}
+
+
+body.dark-mode .tl-timemarker-line-right {
+    border-left: #8a8f8f;
+    background-color: #8a8f8f;
+}
+
+body.dark-mode .tl-timemarker-line-right::after {
+    border-left: #8a8f8f;
+    background-color: #a9b8b8;
+}
+
+
+body.dark-mode .tl-timemarker .tl-timemarker-content-container {
+    border: 1px solid #8a8f8f;
+}

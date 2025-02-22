@@ -1,0 +1,531 @@
+{
+    "title": {
+        "media": {
+            "url": "",
+            "caption": "",
+            "credit": ""
+        },
+        "text": {
+            "headline": "Timeline de Eventos Históricos",
+            "text": "Eventos relevantes del Imperio Romano, judaísmo y cristianismo primitivo"
+        }
+    },
+    "events": [
+        {
+            "start_date": {
+                "year": "69"
+            },
+            "end_date": {
+                "year": "79"
+            },
+            "text": {
+                "headline": "Vespasiano",
+                "text": "César Vespasiano Augusto funda la dinastía flaviana."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "79"
+            },
+            "end_date": {
+                "year": "81"
+            },
+            "text": {
+                "headline": "Tito",
+                "text": "Titus Flavius Vespasianus gobierna como emperador romano."
+            },
+            "group": "Emperadores Romanos",
+            "class": "emperadores-romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "81"
+            },
+            "end_date": {
+                "year": "96"
+            },
+            "text": {
+                "headline": "Domiciano",
+                "text": "Gobierna hasta su asesinato, finalizando la dinastía flaviana."
+            },
+            "group": "Emperadores Romanos",
+            "class": "emperadores-romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "96"
+            },
+            "end_date": {
+                "year": "98"
+            },
+            "text": {
+                "headline": "Nerva",
+                "text": "Marco Coceyo Nerva es emperador, figura de transición que adopta a Trajano como sucesor."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "98"
+            },
+            "end_date": {
+                "year": "117"
+            },
+            "text": {
+                "headline": "Trajano",
+                "text": "Es emperador; el imperio romano alcanza su máxima extensión territorial."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "117"
+            },
+            "end_date": {
+                "year": "138"
+            },
+            "text": {
+                "headline": "Adriano",
+                "text": "Es emperador y adopta una política de estabilización."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "138"
+            },
+            "end_date": {
+                "year": "161"
+            },
+            "text": {
+                "headline": "Antonino Pío",
+                "text": "Es emperador; su reinado es pacífico."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "161"
+            },
+            "end_date": {
+                "year": "180"
+            },
+            "text": {
+                "headline": "Marco Aurelio",
+                "text": "Último de los 'cinco buenos emperadores', gobierna durante la plaga y problemas en las fronteras."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "180"
+            },
+            "end_date": {
+                "year": "192"
+            },
+            "text": {
+                "headline": "Cómodo",
+                "text": "Se convierte en emperador, realiza ejecuciones y despilfarros."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "197"
+            },
+            "end_date": {
+                "year": "211"
+            },
+            "text": {
+                "headline": "Septimio Severo",
+                "text": "Gana el poder imperial y establece la dinastía Severa."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "249"
+            },
+            "end_date": {
+                "year": "251"
+            },
+            "text": {
+                "headline": "Decio",
+                "text": "Cayo o Gayo Mesio Quinto Trajano Decio persigue a los cristianos."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "284"
+            },
+            "end_date": {
+                "year": "305"
+            },
+            "text": {
+                "headline": "Diocleciano",
+                "text": "Gobierna; los cristianos sufren persecución."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "312"
+            },
+            "end_date": {
+                "year": "337"
+            },
+            "text": {
+                "headline": "Constantino",
+                "text": "Gobierna y finaliza la persecución de los cristianos."
+            },
+            "group": "Emperadores Romanos",
+            "background": "#FF6F61"
+        },
+        {
+            "start_date": {
+                "year": "49"
+            },
+            "text": {
+                "headline": "Expulsión de judíos",
+                "text": "El emperador Claudio expulsa a los judíos de Roma debido a disturbios relacionados con 'Crestus'."
+            },
+            "group": "Eventos Judíos",
+            "background": "#6B8E23"
+        },
+        {
+            "start_date": {
+                "year": "132"
+            },
+            "end_date": {
+                "year": "135"
+            },
+            "text": {
+                "headline": "Segunda revuelta judía",
+                "text": "Liderada por Simón Bar Kokhba."
+            },
+            "group": "Eventos Judíos",
+            "background": "#6B8E23"
+        },
+        {
+            "start_date": {
+                "year": "135"
+            },
+            "text": {
+                "headline": "Rebelión aplastada",
+                "text": "La rebelión judía es aplastada, devastando Judea y terminando con el nacionalismo judío."
+            },
+            "group": "Eventos Judíos",
+            "background": "#6B8E23"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "text": {
+                "headline": "Expansión del cristianismo",
+                "text": "El cristianismo se extiende a las clases altas y diversas regiones."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "177"
+            },
+            "text": {
+                "headline": "Comunidades en Galia",
+                "text": "Hay comunidades cristianas en Lyon y Vienne, Galia, lideradas por Ireneo."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "100"
+            },
+            "text": {
+                "headline": "Conversiones en Arbela",
+                "text": "Conversiones al otro lado del Tigris, en Arbela, antigua ciudad asiria."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "text": {
+                "headline": "Comunidad en Damasco",
+                "text": "Una comunidad cristiana se establece al norte de Damasco."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "text": {
+                "headline": "Carta de Plinio",
+                "text": "Se evidencia la expansión del cristianismo, como la carta de Plinio a Trajano."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "200"
+            },
+            "text": {
+                "headline": "Regla de fe",
+                "text": "La 'regla de fe' se utiliza como evidencia de la autenticidad de la iglesia católica."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "text": {
+                "headline": "Escuela de Alejandría",
+                "text": "Panteno de Alejandría funda una escuela para la enseñanza cristiana."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "text": {
+                "headline": "Adoración cristiana",
+                "text": "Se establece un modo definitivo en la adoración cristiana, incluyendo lectura de las Escrituras, sermones y oraciones."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "154"
+            },
+            "text": {
+                "headline": "Policarpo en Roma",
+                "text": "Policarpo viaja a Roma para tratar de resolver el conflicto de la Pascua de Resurrección."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "200"
+            },
+            "text": {
+                "headline": "Cartago como centro",
+                "text": "Cartago se convierte en el centro más influyente en la provincia romana de África."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "202"
+            },
+            "end_date": {
+                "year": "203"
+            },
+            "text": {
+                "headline": "Persecución en Alejandría",
+                "text": "Clemente y sus alumnos huyen, Leónidas es martirizado."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "250"
+            },
+            "text": {
+                "headline": "Credos estables",
+                "text": "A mediados de este siglo se desarrollan credos estables en el contexto del bautismo."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "321"
+            },
+            "text": {
+                "headline": "Ley dominical",
+                "text": "Constantino establece una legislación para exigir que no se trabaje en domingo, excepto para labores agrícolas."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "325"
+            },
+            "text": {
+                "headline": "Concilio de Nicea",
+                "text": "Establece que la mayoría de las iglesias en Asia Menor abandonan la costumbre de celebrar la Pascua de Resurrección el catorce de Nisán."
+            },
+            "group": "Cristianismo",
+            "background": "#4A90E2"
+        },
+        {
+            "start_date": {
+                "year": "367"
+            },
+            "text": {
+                "headline": "Carta de Atanasio",
+                "text": "En oriente, una carta de Atanasio marca un punto definitivo en el canon bíblico."
+            },
+            "group": "Canon Bíblico",
+            "background": "#FFA500"
+        },
+        {
+            "start_date": {
+                "year": "397"
+            },
+            "text": {
+                "headline": "Canon de Cartago",
+                "text": "Una lista similar es aceptada en Cartago, en el occidente."
+            },
+            "group": "Canon Bíblico",
+            "background": "#FFA500"
+        },
+        {
+            "start_date": {
+                "year": "100"
+            },
+            "end_date": {
+                "year": "165"
+            },
+            "text": {
+                "headline": "Justino Mártir",
+                "text": "Utiliza material escrito por los apóstoles en sus relatos de la vida de Jesús."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "end_date": {
+                "year": "215"
+            },
+            "text": {
+                "headline": "Clemente de Alejandría",
+                "text": "Intenta ofrecer una respuesta educada e inteligente al mundo pagano."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "185"
+            },
+            "end_date": {
+                "year": "254"
+            },
+            "text": {
+                "headline": "Orígenes",
+                "text": "Realiza una edición elaborada del Antiguo Testamento llamada la Hexapla."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "200"
+            },
+            "end_date": {
+                "year": "258"
+            },
+            "text": {
+                "headline": "Cipriano",
+                "text": "Es elegido obispo de Cartago y muere como mártir."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "340"
+            },
+            "end_date": {
+                "year": "397"
+            },
+            "text": {
+                "headline": "Ambrosio",
+                "text": "Es el primero en utilizar el título Credo."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "260"
+            },
+            "end_date": {
+                "year": "340"
+            },
+            "text": {
+                "headline": "Eusebio",
+                "text": "Escribe sobre los libros reconocidos y en discusión del canon bíblico."
+            },
+            "group": "Figuras Eclesiásticas",
+            "background": "#8A2BE2"
+        },
+        {
+            "start_date": {
+                "year": "-250"
+            },
+            "text": {
+                "headline": "Septuaginta",
+                "text": "Es traducida en Alejandría."
+            },
+            "group": "Canon Bíblico",
+            "background": "#FFA500"
+        },
+        {
+            "start_date": {
+                "year": "200"
+            },
+            "text": {
+                "headline": "Canon Muratorio",
+                "text": "Es fechado en Roma."
+            },
+            "group": "Canon Bíblico",
+            "background": "#FFA500"
+        },
+        {
+            "start_date": {
+                "year": "150"
+            },
+            "text": {
+                "headline": "Controversia de Pascua",
+                "text": "Se da la controversia de la Pascua de Resurrección entre las iglesias de Oriente y Occidente."
+            },
+            "group": "Controversias",
+            "background": "#FF69B4"
+        }
+    ]
+}

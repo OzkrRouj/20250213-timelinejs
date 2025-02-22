@@ -1,0 +1,49 @@
+/* ------------------------- MODO OSCURO - ESTILOS GENERALES ------------------------- */
+body.dark-mode {
+    background-color: var(--color-darkest) !important;
+    color: var(--text-color) !important;
+}
+
+body.dark-mode h1 {
+    background-color: var(--header-background) !important;
+    color: var(--header-text) !important;
+}
+
+body.dark-mode #timeline-embed {
+    background-color: var(--background-color) !important;
+    border-color: var(--primary-accent) !important;
+}
+
+/* Ajustes específicos para el contenido del slide */
+body.dark-mode .tl-slide-content-container,
+body.dark-mode .tl-slide-content {
+    background-color: transparent !important;
+}
+
+body.dark-mode .tl-slide-scrollable-container {
+    background-color: #202020 !important;
+}
+
+body.dark-mode .tl-slide-background {
+    background-color: #2d2d2d;
+}
+
+/* Ajustes de texto generales en modo oscuro (si no están en _timeline-elementos.css) */
+body.dark-mode .tl-headline-title {
+    color: #ffffff !important;
+}
+
+body.dark-mode .tl-text-content {
+    color: #d0d0d0 !important;
+}
+
+body.dark-mode .tl-timenav-content {
+    background-color: #404040;
+}
+
+/* Ajustes generales de la timeline en modo oscuro */
+body.dark-mode .tl-timeline {
+    --tl-text-color: #eee;
+    --tl-background-color: #121212;
+    --tl-accent-color: #4ECDC4;
+}

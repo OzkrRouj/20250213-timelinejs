@@ -1,0 +1,29 @@
+:root {
+    /* Colores de la paleta (del más oscuro al más claro) */
+    --color-darkest: #364958;
+    --color-dark: #3b6064;
+    --color-medium-dark: #55828b;
+    --color-medium: #87bba2;
+    --color-light: #c9e4ca;
+    --color-lightest: #eff7f6;
+    --color-lightest-soft: #b8bbbbb2;
+
+    /* Propósito de los colores */
+    --background-color: var(--color-lightest);
+    --text-color: var(--color-darkest);
+    --primary-accent: var(--color-medium-dark);
+    --secondary-accent: var(--color-medium);
+    --header-background: var(--color-light);
+    --header-text: var(--color-darkest);
+    --text-color-soft: var(--color-lightest-soft);
+}
+
+body.dark-mode {
+    --background-color: var(--color-darkest);
+    --text-color: var(--color-lightest);
+    --primary-accent: var(--color-medium);
+    --secondary-accent: var(--color-medium-dark);
+    --header-background: var(--color-dark);
+    --header-text: var(--color-lightest);
+    --text-color-soft: var(--color-lightest-soft);
+}

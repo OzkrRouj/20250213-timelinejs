@@ -1,0 +1,113 @@
+/* ------------------------- ICONOS DE NAVEGACIÓN PERSONALIZADOS ------------------------- */
+.tl-slidenav-icon {
+    position: relative;
+    width: 40px !important;
+    height: 40px !important;
+    background: none !important;
+}
+
+/* Icono anterior */
+.tl-slidenav-previous .tl-slidenav-icon::before {
+    content: "\f060";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: var(--primary-accent);
+    transition: all 0.3s ease;
+}
+
+/* Icono siguiente */
+.tl-slidenav-next .tl-slidenav-icon::before {
+    content: "\f061";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: var(--primary-accent);
+    transition: all 0.3s ease;
+}
+
+/* Hover effects */
+.tl-slidenav:hover .tl-slidenav-icon::before {
+    color: var(--secondary-accent);
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+/* Textos de navegación */
+.tl-slidenav-title {
+    font-size: 16px !important;
+    color: var(--text-color) !important;
+}
+
+.tl-slidenav-description {
+    font-size: 14px !important;
+    color: var(--text-color) !important;
+    opacity: 0.8;
+}
+
+/* Ajuste específico para el icono derecho */
+.tl-slidenav-next {
+    margin-right: 20px !important;
+}
+
+/* Asegurar padding general en los controles */
+.tl-slidenav {
+    padding: 0 20px !important;
+}
+
+/* Alinear mejor los iconos */
+.tl-slidenav-next .tl-slidenav-icon::before {
+    left: calc(50% - 5px) !important;
+}
+
+.tl-slidenav-previous .tl-slidenav-icon::before {
+    left: calc(50% + 5px) !important;
+}
+
+/* Modo oscuro y forzar Font Awesome para iconos de navegación */
+body.dark-mode .tl-slidenav-icon::before {
+    color: var(--color-light) !important;
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+}
+
+body.dark-mode .tl-slidenav:hover .tl-slidenav-icon::before {
+    color: var(--color-lightest);
+}
+
+/* Forzar el uso de Font Awesome */
+.tl-slidenav-icon::before {
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+}
+
+/* Modo oscuro (reiterado para asegurar prioridad) */
+body.dark-mode .tl-slidenav-icon::before {
+    color: var(--color-light) !important;
+}
+
+/* Hover en modo oscuro (reiterado) */
+body.dark-mode .tl-slidenav:hover .tl-slidenav-icon::before {
+    color: var(--color-lightest) !important;
+}
+
+body.dark-mode .tl-slidenav-previous .tl-slidenav-icon::before {
+    content: "\f060" !important;
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+    color: var(--color-light) !important;
+}
+
+body.dark-mode .tl-slidenav-next .tl-slidenav-icon::before {
+    content: "\f061" !important;
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900 !important;
+    color: var(--color-light) !important;
+}

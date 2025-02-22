@@ -1,0 +1,44 @@
+/* ------------------------- ESTILOS PARA LA BARRA DE MENÚ ------------------------- */
+
+/* Contenedor principal de la barra de menú */
+.tl-menubar {
+    background-color: var(--color-light) !important;
+    border-radius: 0px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+    transition: background-color 0.3s ease;
+}
+
+/* Botones de la barra de menú */
+.tl-menubar-button {
+    background-color: transparent !important;
+    border: none !important;
+    color: var(--text-color) !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.tl-menubar-button:hover {
+    background-color: var(--secondary-accent) !important;
+    transform: scale(1.1);
+}
+
+/* Iconos de los botones */
+.tl-icon-zoom-in,
+.tl-icon-zoom-out,
+.tl-icon-goend,
+.tl-icon-goback {
+    fill: var(--text-color) !important;
+    stroke: var(--text-color) !important;
+}
+
+/* ------------------------- MODO OSCURO (Barra de Menú) ------------------------- */
+body.dark-mode .tl-menubar {
+    background-color: var(--secondary-accent) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+body.dark-mode .tl-menubar-button:hover {
+    background-color: var(--primary-accent) !important;
+}
